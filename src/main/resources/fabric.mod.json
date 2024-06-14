@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "id": "notessential",
+    "version": "${version}",
+    "name": "Not Essential",
+    "description": "Keeps only what's Essential.",
+    "authors": [
+    ],
+    "contact": {
+    },
+    "license": "MIT",
+    "icon": "assets/icon.png",
+    "environment": "client",
+    "entrypoints": {
+        "main": [
+            "dev.mme.notessential.NotEssential"
+        ]
+    },
+    "mixins": [
+        "mixins.notessential.json"
+    ],
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "fabric-api": "*",
+        "minecraft": "${minecraft_version}",
+        "java": ">=17"
+    },
+    "suggests": {
+        "essential": "*"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "required": true,
+    "package": "dev.mme.notessential.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "CommandConfigMixin",
+        "ConnectionManagerMixin",
+        "ConnectionMixin",
+        "EssentialConfigMixin",
+        "EssentialModelRendererMixin",
+        "EssentialMultiplayerGuiMixin",
+        "MenuButtonMixin",
+        "OnboardingDataMixin",
+        "OnlineIndicatorMixin",
+        "PauseMenuDisplayMixin"
+    ],
+    "client": [
+    ]
+}
